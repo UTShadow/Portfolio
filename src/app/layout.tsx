@@ -2,8 +2,9 @@ import ActiveSectionContextProvider from '@/context/active-section-context'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Asap, Anton } from 'next/font/google'
-import Header from '@/components/header'
-import Footer from '@/components/footer'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+import { Toaster } from "react-hot-toast";
 
 
 
@@ -36,9 +37,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${specFont.variable} ${inter.variable} ${mid.variable} "!scroll-smooth"`}>
+    <html lang="en" className="!scroll-smooth">
       <body 
-        className={`${inter.className}  bg-[#10061a]  text-white-950 relative pt-28 sm:pt-36`}>
+        className={`${inter.className} ${specFont.variable} ${mid.variable} bg-[#10061a]  text-white-950 relative pt-28 sm:pt-36`}>
           
 
          
@@ -47,6 +48,7 @@ export default function RootLayout({
             <Header />
             {children}
             <Footer />
+            <Toaster position="top-right" />
           </ActiveSectionContextProvider>
         
         
