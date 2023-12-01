@@ -5,13 +5,14 @@ import ExperienceShard from "./ExperienceShard";
 import { ExperienceData } from "@/lib/data";
 
 export default function Experience() {
-    const { ref } = useSectionInView("Experience", 0.5);
+    const { ref } = useSectionInView("Experience");
 return(
     <section
         id="experience"
         ref={ref}
-        className="scroll-mt-28 mb-28"
+        className="  scroll-mt-28 mb-28"
     >
+        
         <h1 className="spec lg:text-[72px] hover:animate-pulse py-8  text-center">EXPERIENCE</h1>
         <div>
             {ExperienceData.map((experience, index) => (
@@ -23,6 +24,7 @@ return(
             
            
         </div>
+        
     </section>
 )
 }

@@ -8,7 +8,9 @@
 
 }
 
-
+.borderBlack {
+  @apply border border-black/10;
+}
 
 
 body {
@@ -68,4 +70,7 @@ body {
 }
 .mid{
   font-family:var(--font-mid);
+}
+.introFont{
+  font-family:var(--font-introFont);
 }

@@ -1,7 +1,7 @@
 import ActiveSectionContextProvider from '@/context/active-section-context'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter, Asap, Anton } from 'next/font/google'
+import { Inter, Asap, Anton, Londrina_Solid } from 'next/font/google'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { Toaster } from "react-hot-toast";
@@ -12,6 +12,12 @@ const specFont = Asap({
   subsets: ['latin'],
   weight:'400',
   variable: "--font-specFont",
+})
+
+const introFont = Londrina_Solid({
+  subsets: ['latin'],
+  weight:'900',
+  variable: "--font-introFont",
 })
 
 
@@ -39,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body 
-        className={`${inter.className} ${specFont.variable} ${mid.variable} bg-[#10061a]  text-white-950 relative pt-28 sm:pt-36`}>
+        className={`${inter.className} ${specFont.variable} ${mid.variable} ${introFont.variable} bg-[#10061a]  text-white-950 relative pt-28 sm:pt-36`}>
           
 
          

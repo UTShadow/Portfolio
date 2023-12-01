@@ -14,18 +14,20 @@ export default function About() {
         
         >
         
-            <div className=" ">
+            <div className="pb-8 ">
                 <h1 className="spec hover:animate-pulse py-8 lg:text-[72px] text-center">
                 ABOUT
                 </h1>
-                <div className=" text-center pb-6">
-                    <p className="regular text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Minus deserunt, error accusamus deleniti ipsa ipsum consequuntur velit maiores itaque voluptatibus tenetur libero quidem fugit sit. Natus dolor molestias sequi beatae!
+                <div  className="  rounded-[40px] max-w-[64rem] text-center px-[40px] py-6 bg-indigo-600">
+                    <p className=" text-center  sm:text-[24px] text-white px-5 py-3  ">
+                        I've got the honours Master degree of Engineering in Mechatronics with specialisation in mobile systems.
+                        During the course of my studies, I participated in an internship program that was financed by EU funds, 
+                        which enabled me to secure an internship at a building automation company. I continued cooperation with the company until 
+                        the pandemic began. After graduating, I started cooperation with one of the largest research networks 
+                        in Europe, which I continue to this day.
+                        
                     </p>
-                    <p className="regular text-white">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Odit blanditiis quo corporis fugiat repudiandae deleniti dolorum expedita libero dolore nesciunt, neque possimus eos error nostrum velit alias, magnam facilis ratione!
-                    </p>
+                    
                 </div>
             </div>
         

@@ -62,28 +62,44 @@ export const ExperienceData = [
     job:"infrastructure specialist",
     company:"Łukasiewicz Research Network - PORT",
     period:"07.2023 - present",
-    description:"",
+    description:[" - Assessing, configuring, and maintaining technological infrastructure systems",
+      "- Assisting specialists in everyday tasks during working hours",
+      "- Making independent decisions in the event of a critical situation",
+    ],
     picture:portImg,
   },
   {
     job:"Jr. infrastructure specialist",
     company:"Łukasiewicz Research Network - PORT",
     period:"10.2020-07.2023",
-    description:"",
+    description:[
+      "- Assessing, configuring, and maintaining technological infrastructure systems",
+      "- Assisting specialists in everyday tasks during working hours",
+      "- Solving current problems in line with the guidelines and documentation",
+      
+
+    ],
     picture:portImg,
   },
   {
     job:"Fitter",
     company:"SIM Ltd.",
     period:"10.2019-03.2020",
-    description:"",
+    description:[
+      "- Prepering SCADA system for hotel",
+      "- Preparation, Configuration and installation of home automation systems",
+      "- Maintaining contacts with customers"],
     picture:domatiqImg,
   },
   {
     job:"intern",
     company:"SIM Ltd.",
     period:"07.2019-10.2019",
-    description:"",
+    description:[
+      "- Preparation, Configuration and installation of home automation systems",
+      "- Adapting mobile app for ios using Kotlin",
+      "- Creating a visualization and valuation of the projects",    
+    ],
     picture:domatiqImg,
 
   },
