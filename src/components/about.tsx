@@ -20,10 +20,10 @@ export default function About() {
                 </h1>
                 <div  className="  rounded-[40px] max-w-[64rem] text-center px-[40px] py-6 bg-indigo-600">
                     <p className=" text-center  sm:text-[24px] text-white px-5 py-3  ">
-                        I've got the honours Master degree of Engineering in Mechatronics with specialisation in mobile systems.
-                        During the course of my studies, I participated in an internship program that was financed by EU funds, 
+                        I've got the honours Master of Engineering degree in Mechatronics with a specialisation in mobile systems.
+                        During the course of my studies, I participated in an internship program that was founded by EU funds, 
                         which enabled me to secure an internship at a building automation company. I continued cooperation with the company until 
-                        the pandemic began. After graduating, I started cooperation with one of the largest research networks 
+                        the pandemic began. After graduating, I started working with one of the largest research networks 
                         in Europe, which I continue to this day.
                         
                     </p>

@@ -69,7 +69,7 @@ export default function Contact() {
             />
             <div className="flex ">
               <SubmitBtn />
-              <p className="text-white px-6 pt-3">in case of truble refresh browser </p>
+              
             </div>
           </form>
         </motion.section>);
