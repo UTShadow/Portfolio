@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/SendEmail";
-import SubmitBtn from "./submitBtn";
+import SubmitBtn from "./SubmitBtn";
 import toast from "react-hot-toast";
 
 

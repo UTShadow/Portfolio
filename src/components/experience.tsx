@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useSectionInView } from "@/lib/hooks";
-import ExperienceShard from "./experienceShard";
+import ExperienceShard from "./ExperienceShard";
 import { ExperienceData } from "@/lib/data";
 
 export default function Experience() {
