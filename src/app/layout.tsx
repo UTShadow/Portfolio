@@ -3,7 +3,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Asap, Anton, Londrina_Solid } from 'next/font/google'
 import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+
 import { Toaster } from "react-hot-toast";
 
 
@@ -34,13 +34,13 @@ const mid = Anton({
 
 export const metadata: Metadata = {
   title: 'Michał Karsay Portfolio',
-  description: '...',
+  description: 'Portfolio ',
 }
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
@@ -53,7 +53,7 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
             <Header />
             {children}
-            <Footer />
+            
             <Toaster position="top-right" />
           </ActiveSectionContextProvider>
         
