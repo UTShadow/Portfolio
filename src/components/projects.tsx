@@ -3,7 +3,7 @@
 import React from "react";
 import { useSectionInView } from "@/lib/hooks";
 import { projectsData } from "@/lib/data";
-import Project from "./Project";
+import Project from "./project";
 
 export default function Projects() {
     const { ref } = useSectionInView("Projects", 0.5);

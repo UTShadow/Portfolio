@@ -2,7 +2,7 @@ import ActiveSectionContextProvider from '@/context/active-section-context'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Asap, Anton, Londrina_Solid } from 'next/font/google'
-import Header from '@/components/Header'
+import Header from '@/components/header'
 
 import { Toaster } from "react-hot-toast";
 
