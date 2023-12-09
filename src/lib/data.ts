@@ -1,6 +1,6 @@
 
 import furnaceImg from "@/pics/furnace.png"
-import portfoImg from "@/src/pics/portfo.png"
+import porfoImg from "@/pics/portfo.png"
 import githubImg from "@/pics/github.svg"
 import urlImg from "@/pics/url.png"
 import domatiqImg from "@/pics/domatiq.png"
@@ -50,7 +50,7 @@ export const links = [
     description:
       "\xa0 My portfolio, which let you know me a little bit better.",
     tags:["Next.js", "React", "typescipt", "tailwind", "Motion"],
-    imageUrl: portfoImg,
+    imageUrl: porfoImg,
     github:"https://github.com/UTShadow/Portfolio",
     url:"https://github.com/UTShadow/Portfolio",
     githubIcon: githubImg,
