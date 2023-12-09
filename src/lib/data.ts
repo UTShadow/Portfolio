@@ -1,6 +1,6 @@
 
 import furnaceImg from "@/pics/furnace.png"
-import portfoImg from "..portfo.png"
+import portfoImg from "../pics/portfo.png"
 import githubImg from "@/pics/github.svg"
 import urlImg from "@/pics/url.png"
 import domatiqImg from "@/pics/domatiq.png"
