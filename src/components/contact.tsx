@@ -67,7 +67,10 @@ export default function Contact() {
               required
               maxLength={5000}
             />
-            <SubmitBtn />
+            <div className="flex ">
+              <SubmitBtn />
+              <p className="text-white px-6 pt-3">in case of truble refresh browser </p>
+            </div>
           </form>
         </motion.section>);
 }

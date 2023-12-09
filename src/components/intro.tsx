@@ -15,7 +15,7 @@ export default function Intro() {
         <div className=" grid   gap-y-4   lg:grid-cols-5 grid-cols-2 ">
         
             <div className=" place-self-center w-[70vw] sm:w-[60vw] md:w-[50vw] lg:w-[18rlh] hover:scale-[110%] blob bg-opacity-40 shadow-inherit order-first  container col-span-2 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 ">
-                <img className="scale-[70%]  rounded-[80px]"src="/palceholder.jpg"/>
+                <img className="scale-[70%]  rounded-[80px]"src="/profil5.3.png"/>
             </div> 
            
             <div className="relative items-center px-10 lg:col-span-3 col-span-2">
