@@ -52,7 +52,7 @@ export const links = [
     tags:["Next.js", "React", "typescipt", "tailwind", "Motion"],
     imageUrl: PortfoImg ,
     github:"https://github.com/UTShadow/Portfolio",
-    url:"https://github.com/UTShadow/Portfolio",
+    url:"https://portfolio-utshadow.vercel.app/",
     githubIcon: githubImg,
     urlIcon: urlImg,
   },
