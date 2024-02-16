@@ -3,10 +3,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Asap, Anton, Londrina_Solid } from 'next/font/google'
 import Header from '@/components/header'
-
 import { Toaster } from "react-hot-toast";
-
-
 
 const specFont = Asap({
   subsets: ['latin'],
@@ -46,17 +43,13 @@ export default function RootLayout({
     <html lang="en" className="!scroll-smooth">
       <body 
         className={`${inter.className} ${specFont.variable} ${mid.variable} ${introFont.variable} bg-[#10061a]  text-white-950 relative pt-28 sm:pt-36`}>
-          
-
-         
-          
+ 
           <ActiveSectionContextProvider>
             <Header />
             {children}
             
             <Toaster position="top-right" />
           </ActiveSectionContextProvider>
-        
         
       </body>
     </html>

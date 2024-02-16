@@ -151,6 +151,4 @@ export const otherSkills = [
   "SIMATIC STEP7",
   "SEP E G1/G2/G3",
   "Driving License",
-  
-
 ] as const;

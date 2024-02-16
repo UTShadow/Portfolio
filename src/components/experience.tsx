@@ -13,16 +13,16 @@ return(
         className="  scroll-mt-28 mb-28"
     >
         
-        <h1 className="spec lg:text-[72px] hover:animate-pulse py-8  text-center">EXPERIENCE</h1>
+        <h1 className="spec lg:text-[72px] hover:animate-pulse py-8  text-center">
+            EXPERIENCE
+        </h1>
         <div>
             {ExperienceData.map((experience, index) => (
                 <React.Fragment key={index}>
                     <ExperienceShard {...experience}/>
                 </React.Fragment>
             ))}
-            
-            
-           
+
         </div>
         
     </section>

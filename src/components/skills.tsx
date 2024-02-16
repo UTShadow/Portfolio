@@ -18,17 +18,19 @@ const fadeInAnimationVariants = {
         delay: 0.05 * index,
       },
     }),
-  };
+};
 
 export default function Skills() {
     const { ref } = useSectionInView("Skills");
-return(
+  return(
     <section
         id="skills"
         ref={ref}
         className="w-[80%] mb-28 sm:mb-30  scroll-mt-28 px-0 "
     >
-        <h1 className="spec hover:animate-pulse  lg:text-[72px] text-center">SKILLS</h1>
+        <h1 className="spec hover:animate-pulse  lg:text-[72px] text-center">
+            SKILLS
+        </h1>
         <div className="w-100% p-4 lg:flex">
             <div className="  basis-1/3 text-center">
                 <h2 className="mid  text-[50px] lg:text-[60px] bg-gradient-to-r from-pink-600 to-purple-600 inline-block text-transparent bg-clip-text">
@@ -50,9 +52,7 @@ return(
                             {skill}
                         </motion.li>
                     ))}
-                </ul>
-
-                
+                </ul> 
             </div>
             
             <div className="basis-1/3 text-center">
@@ -99,11 +99,7 @@ return(
                         </motion.li>
                     ))}
                 </ul>
-
             </div>
-           
-            
-
         </div>
         <div className=" text-center">
             <h2 className="mid text-[50px] lg:text-[60px] bg-gradient-to-r from-pink-600 to-purple-600 inline-block text-transparent bg-clip-text">
@@ -126,26 +122,7 @@ return(
                         </motion.li>
                     ))}
                 </ul>
-
-            </div>
-
-
-
-        
-
-            
-           
-                   
-               
-           
-
-
-                    
-
-            
-        
-
-        
+            </div>   
     </section>
-)
+  )
 }

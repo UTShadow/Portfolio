@@ -36,23 +36,23 @@ export default function Project({
       <section className="bg-indigo-500  max-w-[45rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[24rem] hover:bg-purple-600 transition ">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className=" text-4xl font-semibold flex place-content-around">{title} 
-          <Link href={github} target="_blank">
-            <Image
-              src={githubIcon}
-              alt="github icon"
-              width={40}
-              height={40}
-              className="hover:motion-safe:animate-bounce"
-            /> 
+            <Link href={github} target="_blank">
+              <Image
+                src={githubIcon}
+                alt="github icon"
+                width={40}
+                height={40}
+                className="hover:motion-safe:animate-bounce"
+              /> 
             </Link>
             <Link href={url} target="_blank">
-            <Image
-              src={urlIcon}
-              alt="github icon"
-              width={40}
-              height={40}
-              className="hover:motion-safe:animate-bounce "
-            /> 
+              <Image
+                src={urlIcon}
+                alt="github icon"
+                width={40}
+                height={40}
+                className="hover:motion-safe:animate-bounce "
+              /> 
             </Link>
           </h3>
           
@@ -81,11 +81,9 @@ export default function Project({
         group-hover:-translate-x-3
         group-hover:translate-y-3
         group-hover:-rotate-2
-
         group-even:group-hover:translate-x-3
         group-even:group-hover:translate-y-3
         group-even:group-hover:rotate-2
-
         group-even:right-[initial] group-even:-left-40"
         />
         </Link>

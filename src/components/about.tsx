@@ -11,7 +11,6 @@ export default function About() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.175 }}
         id="about"
-        
         >
         
             <div className="pb-8 ">
@@ -26,8 +25,7 @@ export default function About() {
                         the pandemic began. After graduating, I started working with one of the largest research networks 
                         in Europe, which I continue to this day.
                         
-                    </p>
-                    
+                    </p> 
                 </div>
             </div>
         
