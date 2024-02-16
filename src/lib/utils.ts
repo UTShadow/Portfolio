@@ -2,12 +2,13 @@ export const validateString = (
   value: unknown,
   maxLength: number
 ): value is string => {
-  if (!value || typeof value !== "string" || value.length > maxLength) {
+  return (!value || typeof value !== "string" || value.length > maxLength) ? true : false ;
+};
+  {/*if (!value || typeof value !== "string" || value.length > maxLength) {
     return false;
   }
+return true; };*/}
 
-  return true;
-};
 
 export const getErrorMessage = (error: unknown): string => {
   let message: string;
