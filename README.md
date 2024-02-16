@@ -6,7 +6,7 @@ ___
 ___
 
 # Preview
-![Portfolio showcase layout](.\src\pics\portfo.png "Portfolio showcase layout")
+![Portfolio showcase layout](./src/pics/portfo.png "Portfolio showcase layout")
 
 ___
 
